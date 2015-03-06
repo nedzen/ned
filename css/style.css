@@ -2601,6 +2601,24 @@ ul li {
   display: table-cell;
   padding-right: 16px;
 }
+ul li:active div {
+  display: table-cell;
+  background: rgba(255, 255, 255, 0.9);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+ul li:active div img {
+  height: auto;
+  width: auto;
+  max-height: 100%;
+  max-width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  vertical-align: middle;
+}
 ul img {
   display: block;
   width: 100%;
